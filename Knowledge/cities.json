@@ -1,0 +1,312 @@
+{
+  "_meta": {
+    "description": "Hand-curated city profiles for the 12 Swedish cities with the most English-taught master's programmes in the dataset (about 80% of offerings). Figures are approximate and must be verified on the linked official pages. Universities and programme counts per city are computed from data/programs.json at runtime, not stored here.",
+    "compiled": "2026-11-03",
+    "train_times_note": "Approximate fastest typical train journey to Stockholm Central; check sj.se for exact times.",
+    "rent_note": "Rent figures are the estimates published by the local university. Where none is published, the national average from Study in Sweden is used and marked as such."
+  },
+  "national": {
+    "maintenance_requirement_sek_month": 10656,
+    "maintenance_requirement_note": "Amount non-EU students must show for each month of studies when applying for a residence permit in 2026 (SEK 10,584 for applications in 2025).",
+    "maintenance_requirement_source": "https://www.migrationsverket.se/en/lankade-moduler-engelska/studera/forsorjningskrav-studera-huvudsokande.html",
+    "average_budget_sek_month": {
+      "accommodation": 4070,
+      "food": 2000,
+      "local_travel": 550,
+      "total": 8370
+    },
+    "average_budget_source": "https://studyinsweden.se/life-in-sweden/cost-of-living/"
+  },
+  "cities": [
+    {
+      "city": "Stockholm",
+      "aliases": [
+        "Solna",
+        "Flemingsberg",
+        "Huddinge",
+        "Sundbyberg"
+      ],
+      "region": "Stockholm County, east coast",
+      "population": 999239,
+      "population_year": 2025,
+      "population_source": "https://www.scb.se/Diagram/getCSV/215468",
+      "size": "large city (capital)",
+      "train_to_stockholm": "you are in Stockholm",
+      "rent_sek_month": "about 6,500",
+      "rent_scope": "accommodation estimate, Stockholm University",
+      "monthly_budget_sek": "at least 12,000",
+      "cost_source": "https://www.su.se/english/education/new-in-sweden/living-costs",
+      "character": "Sweden's capital and largest city, built on islands where Lake Mälaren meets the Baltic Sea. The country's main hub for tech, finance, startups and government, with many universities (Stockholm University, KTH, Karolinska Institutet and others). The most expensive Swedish city, and student housing is the hardest to find.",
+      "good_for": [
+        "big-city life",
+        "tech and startup jobs",
+        "international environment",
+        "largest choice of programmes"
+      ],
+      "watch_out": [
+        "highest rents in Sweden",
+        "long queues for student housing, apply early"
+      ]
+    },
+    {
+      "city": "Gothenburg",
+      "aliases": [
+        "Göteborg"
+      ],
+      "region": "Västra Götaland, west coast",
+      "population": 613278,
+      "population_year": 2025,
+      "population_source": "https://www.scb.se/Diagram/getCSV/215468",
+      "size": "large city",
+      "train_to_stockholm": "about 3 hours",
+      "rent_sek_month": "4,000 to 7,500 (student housing), 6,000 to 10,000 (small apartment)",
+      "rent_scope": "University of Gothenburg estimate; Chalmers gives 4,000 to 8,000",
+      "monthly_budget_sek": "about 10,500 to 17,500",
+      "cost_source": "https://www.gu.se/en/study-in-gothenburg/prepare-for-your-arrival/living-costs-as-a-student-in-gothenburg",
+      "character": "Sweden's second-largest city and largest port, on the west coast with an archipelago close by. Strong industry and engineering base (automotive, life science, shipping) and two large universities, Chalmers and the University of Gothenburg. Often described as more relaxed and friendly than Stockholm.",
+      "good_for": [
+        "engineering and industry",
+        "coast and archipelago",
+        "big-city life at lower cost than Stockholm"
+      ],
+      "watch_out": [
+        "rainy and windy climate",
+        "student housing is competitive"
+      ]
+    },
+    {
+      "city": "Malmö",
+      "aliases": [],
+      "region": "Skåne, far south",
+      "population": 367924,
+      "population_year": 2025,
+      "population_source": "https://www.scb.se/Diagram/getCSV/215468",
+      "size": "large city",
+      "train_to_stockholm": "about 4.5 hours",
+      "rent_sek_month": "no city-specific figure found; national average about 4,070",
+      "rent_scope": "national average (Study in Sweden)",
+      "monthly_budget_sek": "national average about 8,370; Lund University (15 minutes away) suggests 4,000 to 8,000 for rent",
+      "cost_source": "https://studyinsweden.se/life-in-sweden/cost-of-living/",
+      "character": "Sweden's third-largest city, young and very multicultural, linked to Copenhagen by the Öresund Bridge. Malmö University is a modern, urban university. Lund is about 15 minutes away by train, so many students live in one city and study in the other.",
+      "good_for": [
+        "multicultural city life",
+        "access to Copenhagen and Denmark",
+        "mild southern climate"
+      ],
+      "watch_out": [
+        "fewer programmes than Lund next door, compare both"
+      ]
+    },
+    {
+      "city": "Uppsala",
+      "aliases": [
+        "Ultuna"
+      ],
+      "region": "Uppsala County, north of Stockholm",
+      "population": 249726,
+      "population_year": 2025,
+      "population_source": "https://www.scb.se/Diagram/getCSV/215468",
+      "size": "mid-sized university city",
+      "train_to_stockholm": "about 40 minutes",
+      "rent_sek_month": "no city-specific figure found; national average about 4,070",
+      "rent_scope": "national average (Study in Sweden); Uppsala University Housing Office lists current prices per building",
+      "monthly_budget_sek": "national average about 8,370",
+      "cost_source": "https://studyinsweden.se/life-in-sweden/cost-of-living/",
+      "character": "Scandinavia's oldest university town (Uppsala University, founded 1477), also home to the Swedish University of Agricultural Sciences (SLU). Student life is organised around the student nations, which run pubs, clubs, sports and some housing. Close to Stockholm and Arlanda airport.",
+      "good_for": [
+        "classic student-town life",
+        "research-intensive universities",
+        "easy access to Stockholm"
+      ],
+      "watch_out": [
+        "housing shortage at semester start, apply as soon as admitted"
+      ]
+    },
+    {
+      "city": "Lund",
+      "aliases": [],
+      "region": "Skåne, far south",
+      "population": 131590,
+      "population_year": 2024,
+      "population_source": "https://www.ekonomifakta.se/regional-jamforelse/lund/",
+      "size": "small university city",
+      "train_to_stockholm": "about 4.5 hours",
+      "rent_sek_month": "4,000 to 8,000",
+      "rent_scope": "Lund University estimate",
+      "monthly_budget_sek": "food about 3,000 plus rent (Lund University example budget)",
+      "cost_source": "https://www.lunduniversity.lu.se/student-life/before-you-arrive/money-and-living-costs",
+      "character": "A historic, compact university town where students make up a large part of the population. Lund University is one of Sweden's largest and highest-ranked universities, with student nations similar to Uppsala. Malmö is 15 minutes and Copenhagen about 40 minutes away by train.",
+      "good_for": [
+        "classic student-town life",
+        "highly ranked university",
+        "access to Malmö and Copenhagen"
+      ],
+      "watch_out": [
+        "very competitive student housing market"
+      ]
+    },
+    {
+      "city": "Umeå",
+      "aliases": [],
+      "region": "Västerbotten, northern Sweden",
+      "population": 135273,
+      "population_year": 2025,
+      "population_source": "https://www.mynewsdesk.com/se/umea/news/umeaa-fortsaetter-oeka-naest-starkast-av-landets-universitetsstaeder-506958",
+      "size": "mid-sized university city",
+      "train_to_stockholm": "about 6 to 7 hours (about 1 hour by plane)",
+      "rent_sek_month": "about 14,000 to 21,000 per term for university-arranged rooms",
+      "rent_scope": "Umeå University housing, price given per term, not per month",
+      "monthly_budget_sek": "national average about 8,370",
+      "cost_source": "https://umu.se/en/education/accommodation/student-housing/housing-information",
+      "character": "The largest city in northern Sweden and a young, fast-growing university city with Umeå University and an SLU campus. Snowy winters with very short days, light summer nights, and a chance of northern lights. Strong outdoor and cultural life.",
+      "good_for": [
+        "nature and winter outdoor life",
+        "lower living costs than the south",
+        "young student city"
+      ],
+      "watch_out": [
+        "long, dark and cold winters",
+        "far from Stockholm and the rest of Europe"
+      ]
+    },
+    {
+      "city": "Linköping",
+      "aliases": [],
+      "region": "Östergötland, south-east",
+      "population": 168714,
+      "population_year": 2025,
+      "population_source": "https://www.scb.se/Diagram/getCSV/215468",
+      "size": "mid-sized city",
+      "train_to_stockholm": "about 1 hour 45 minutes",
+      "rent_sek_month": "no city-specific figure found; national average about 4,070",
+      "rent_scope": "national average (Study in Sweden)",
+      "monthly_budget_sek": "national average about 8,370",
+      "cost_source": "https://studyinsweden.se/life-in-sweden/cost-of-living/",
+      "character": "A technology and engineering city with a strong aerospace and IT industry. Linköping University has campuses in Linköping and in Norrköping, 25 minutes away. Known for an active student union culture and a campus-centred student life.",
+      "good_for": [
+        "engineering and IT",
+        "industry contacts",
+        "campus student life"
+      ],
+      "watch_out": [
+        "smaller city with a quieter nightlife than the big three"
+      ]
+    },
+    {
+      "city": "Jönköping",
+      "aliases": [],
+      "region": "Småland, south-central",
+      "population": 148152,
+      "population_year": 2025,
+      "population_source": "https://www.scb.se/Diagram/getCSV/215468",
+      "size": "mid-sized city",
+      "train_to_stockholm": "about 3 to 3.5 hours (usually with a change)",
+      "rent_sek_month": "5,000 to 8,500",
+      "rent_scope": "Jönköping University estimate, depending on location and size",
+      "monthly_budget_sek": "about 10,800 to 14,300 including rent (computed from the university's example budget)",
+      "cost_source": "https://ju.se/en/study-at-ju/after-admission/living-costs.html",
+      "character": "A lakeside city at the southern tip of Lake Vättern, Sweden's second-largest lake. Jönköping University is a compact, international campus in the city centre, known for its business school (JIBS) and engineering school.",
+      "good_for": [
+        "business and management",
+        "compact international campus",
+        "lakeside city"
+      ],
+      "watch_out": [
+        "not on the main Stockholm to Gothenburg rail line"
+      ]
+    },
+    {
+      "city": "Karlstad",
+      "aliases": [],
+      "region": "Värmland, west-central",
+      "population": 98084,
+      "population_year": 2024,
+      "population_source": "https://www.ekonomifakta.se/regional-jamforelse/karlstad/",
+      "size": "small city",
+      "train_to_stockholm": "about 2.5 hours",
+      "rent_sek_month": "about 4,900",
+      "rent_scope": "Karlstad University estimate",
+      "monthly_budget_sek": "about 10,584",
+      "cost_source": "https://www.kau.se/en/education/study-us/living-sweden/living-costs",
+      "character": "A small city on the shore of Lake Vänern, Sweden's largest lake, branded as one of the sunniest places in Sweden. Karlstad University has a single, green campus a short bus ride from the centre.",
+      "good_for": [
+        "affordable small-city life",
+        "single-campus university",
+        "lakes and nature"
+      ],
+      "watch_out": [
+        "smaller job market and city life"
+      ]
+    },
+    {
+      "city": "Växjö",
+      "aliases": [],
+      "region": "Småland, south",
+      "population": 98334,
+      "population_year": 2024,
+      "population_source": "https://www.ekonomifakta.se/regional-jamforelse/vaxjo/",
+      "size": "small city",
+      "train_to_stockholm": "about 3.5 hours (usually with a change)",
+      "rent_sek_month": "about 4,600",
+      "rent_scope": "Linnaeus University estimate (covers Växjö and Kalmar)",
+      "monthly_budget_sek": "about 10,590",
+      "cost_source": "https://lnu.se/en/student/preparing-for-your-stay/living-costs/",
+      "character": "A small, green city surrounded by lakes and forest, with a strong environmental profile. Linnaeus University's Växjö campus sits by a lake just outside the centre; the university also has a campus in Kalmar on the east coast.",
+      "good_for": [
+        "calm, green student life",
+        "sustainability-related programmes",
+        "lower costs"
+      ],
+      "watch_out": [
+        "small city, limited nightlife and job market"
+      ]
+    },
+    {
+      "city": "Falun",
+      "aliases": [],
+      "region": "Dalarna, central Sweden",
+      "population": 59945,
+      "population_year": 2024,
+      "population_source": "https://www.ekonomifakta.se/regional-jamforelse/falun/",
+      "size": "small town",
+      "train_to_stockholm": "about 2.5 hours",
+      "rent_sek_month": "no city-specific figure found; national average about 4,070",
+      "rent_scope": "national average (Study in Sweden)",
+      "monthly_budget_sek": "national average about 8,370",
+      "cost_source": "https://studyinsweden.se/life-in-sweden/cost-of-living/",
+      "character": "A small historic town in Dalarna, known for the Falu copper mine (a UNESCO World Heritage Site) and winter sports. Dalarna University has campuses in Falun and in nearby Borlänge, about 20 minutes away.",
+      "good_for": [
+        "small-town life and nature",
+        "winter sports",
+        "lower costs"
+      ],
+      "watch_out": [
+        "small town with limited city life",
+        "check which campus (Falun or Borlänge) the programme uses"
+      ]
+    },
+    {
+      "city": "Skövde",
+      "aliases": [],
+      "region": "Västra Götaland (Skaraborg), between lakes Vänern and Vättern",
+      "population": 57995,
+      "population_year": 2024,
+      "population_source": "https://www.ekonomifakta.se/regional-jamforelse/skovde/",
+      "size": "small town",
+      "train_to_stockholm": "about 2 to 2.5 hours (on the Stockholm to Gothenburg line)",
+      "rent_sek_month": "about 4,500",
+      "rent_scope": "University of Skövde, university-offered accommodation",
+      "monthly_budget_sek": "national average about 8,370",
+      "cost_source": "https://www.his.se/en/education/newly-admitted/accommodation/",
+      "character": "A small town on the main railway between Stockholm and Gothenburg. The University of Skövde is known for computer game development, informatics and data science, and offers university-arranged housing for new students.",
+      "good_for": [
+        "game development and informatics",
+        "affordable housing",
+        "good rail links to Gothenburg"
+      ],
+      "watch_out": [
+        "small town with limited city life"
+      ]
+    }
+  ]
+}

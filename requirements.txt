@@ -1,0 +1,6 @@
+requests>=2.31
+numpy>=1.26
+python-dotenv>=1.0
+google-genai>=1.30
+sentence-transformers>=3.0
+gradio>=5.0

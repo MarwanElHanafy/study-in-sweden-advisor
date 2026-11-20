@@ -1,0 +1,130 @@
+{
+  "retrieval_only": {
+    "k": 5,
+    "questions": [
+      {
+        "id": "R1",
+        "ground_truth_count": 151,
+        "hit": true,
+        "precision": 1.0,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Master's Programme in Artificial Intelligence",
+          "Master’s programme in AI and Machine Learning",
+          "One Year Master Programme in Computer Science, specialisation in Machine Learning"
+        ]
+      },
+      {
+        "id": "R2",
+        "ground_truth_count": 4,
+        "hit": true,
+        "precision": 0.8,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Master's Programme in Data Science - Data Engineering",
+          "Master's Programme in Data Science - Image Analysis and Machine Learning",
+          "Master's Programme in Data Science - Machine Learning and Statistics"
+        ]
+      },
+      {
+        "id": "R3",
+        "ground_truth_count": 9,
+        "hit": true,
+        "precision": 0.8,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Master's Programme in Experimental Game Design and Development",
+          "Master's Programme in Game Design",
+          "Master's Programme, Machine Design"
+        ]
+      },
+      {
+        "id": "R4",
+        "ground_truth_count": 1,
+        "hit": false,
+        "precision": 0.0,
+        "reciprocal_rank": 0.0,
+        "top": [
+          "Environmental Sciences",
+          "Master of Science in Marketing and Consumption",
+          "Master's Programme in Earth Sciences"
+        ]
+      },
+      {
+        "id": "R5",
+        "ground_truth_count": 20,
+        "hit": true,
+        "precision": 1.0,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Master's Programme in Financial Engineering",
+          "Master’s Programme in Banking and Finance",
+          "Master of Science in Finance"
+        ]
+      },
+      {
+        "id": "R6",
+        "ground_truth_count": 18,
+        "hit": true,
+        "precision": 0.8,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Master's Programme in Public Health",
+          "Master's Programme in Public Health Science",
+          "Master’s programme in public health sciences - Social sustainable development from a global perspective"
+        ]
+      },
+      {
+        "id": "R7",
+        "ground_truth_count": 21,
+        "hit": true,
+        "precision": 1.0,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Master's Programme in Architecture and Urban Design",
+          "Master's Programme, Sustainable Urban Planning and Design",
+          "Master’s Programme in Sustainable Urban Planning and Design"
+        ]
+      },
+      {
+        "id": "R8",
+        "ground_truth_count": 11,
+        "hit": true,
+        "precision": 1.0,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Master Programme in Molecular Biology, Molecular Genetics and Biotechnology",
+          "Master Programme in Molecular Biology, Microbiology and Biotechnology",
+          "Master Programme in Molecular Biology, Immunology and Infection Biology"
+        ]
+      },
+      {
+        "id": "R9",
+        "ground_truth_count": 4,
+        "hit": true,
+        "precision": 0.2,
+        "reciprocal_rank": 0.5,
+        "top": [
+          "Master's Programme in Network Forensics",
+          "One Year Master Programme in Computer Science, specialisation in Machine Learning",
+          "Master's Programme in Finance"
+        ]
+      },
+      {
+        "id": "R10",
+        "ground_truth_count": 17,
+        "hit": true,
+        "precision": 0.8,
+        "reciprocal_rank": 1.0,
+        "top": [
+          "Masters Programme in Human Rights Studies",
+          "Master's Programme in Peace and Conflict Studies",
+          "Conflict, Risk and International Security (Two Years)"
+        ]
+      }
+    ],
+    "hit@5": 0.9,
+    "precision@5": 0.74,
+    "mrr": 0.85
+  }
+}

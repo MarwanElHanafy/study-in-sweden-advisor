@@ -1,0 +1,166 @@
+# Filter funnel
+    61547  all events
+     9847  programs
+     5867  + master's level
+     3316  + taught in English
+     2533  + open to international applicants
+     2518  + not cancelled
+     1069  + starts on/after 2026-11-03
+
+# 1069 offerings written to data/programs.json
+  distinct programmes (title+university): 905
+  has description               770  (72%)
+  has description_sv            822  (77%)
+  has search_description        847  (79%)
+  has eligibility               963  (90%)
+  has keywords                  897  (84%)
+  has url                      1069  (100%)
+  has application_deadline      981  (92%)
+  has tuition_total_sek        1033  (97%)
+
+## city (distinct 37)
+     193  Stockholm
+     128  Gothenburg
+     117  Uppsala
+     111  Lund
+      86  Umeå
+      47  Malmö
+      33  Karlstad
+      29  Växjö
+      26  Online (distance)
+      26  Jönköping
+      25  Falun
+      25  Linköping
+      23  Skövde
+      16  Luleå
+      14  Borås
+      14  Borlänge
+      14  Halmstad
+      14  Gävle
+      14  Trollhättan
+      14  Sundsvall
+      12  Karlskrona
+      12  Kalmar
+      11  Västerås
+      10  Örebro
+       8  Helsingborg
+       8  Visby
+       7  Kristianstad
+       6  Piteå
+       6  Alnarp
+       5  Norrköping
+       4  Abroad (joint programme)
+       4  Östersund
+       2  Kiruna
+       2  Eskilstuna
+       1  Arvika
+       1  Skellefteå
+       1  Södertälje
+
+## university (distinct 32)
+     120  Lund University
+     110  Uppsala University
+      97  University of Gothenburg
+      97  Stockholm University
+      86  Umeå University
+      56  KTH Royal Institute of Technology
+      46  Malmö University
+      41  Linnaeus University (Kalmar Växjö)
+      39  Chalmers University of Technology
+      39  Dalarna University
+      36  Karlstad University
+      32  Jönköping University
+      31  Linköping University
+      26  Swedish University of Agricultural Sciences
+      25  Luleå University of Technology
+      23  University of Skövde
+      18  Mid Sweden University
+      17  University of Borås
+      16  Mälardalen University
+      14  Blekinge Institute of Technology
+      14  Halmstad University
+      14  University of Gävle
+      14  University West
+      13  Södertörn University
+      10  Karolinska Institutet
+      10  Örebro University
+       9  Royal College of Music in Stockholm
+       7  Kristianstad University
+       5  Swedish Defence University
+       2  Stockholm School of Economics
+       1  Stockholm School of Theology
+       1  School of Eastern Christian Studies
+
+## start_term (distinct 2)
+    1049  Autumn 2027
+      20  Spring 2027
+
+## application_deadline (distinct 14)
+     836  2027-01-15
+     121  2027-04-15
+      88  
+       7  2026-10-15
+       6  2026-08-17
+       3  2026-08-15
+       1  2026-01-15
+       1  2027-03-01
+       1  2027-05-01
+       1  2027-04-01
+       1  2027-01-04
+       1  2027-07-23
+       1  2027-02-15
+       1  2027-03-16
+
+## pace_percent (distinct 2)
+    1037  100
+      32  50
+
+## credits (distinct 4)
+     902  120.0
+     165  60.0
+       1  75.0
+       1  300.0
+
+## municipality codes NOT in the city map (code, campus) -> check these
+       3  ''       Konstanz
+       1  ''       Chapel Hill, NC
+
+## mapped municipality codes actually used (code -> city, example campus)
+  ''       Abroad (joint programme) Konstanz
+  '0126'   Stockholm            Flemingsberg
+  '0180'   Stockholm            Stockholm
+  '0181'   Södertälje           
+  '0184'   Stockholm            Solna
+  '0380'   Online (distance)    Location independent
+  '0484'   Eskilstuna           Eskilstuna
+  '0580'   Linköping            Linköping
+  '0581'   Norrköping           Norrköping
+  '0680'   Online (distance)    No physical attendance required
+  '0780'   Växjö                VÄXJÖ
+  '0880'   Kalmar               KALMAR
+  '0980'   Visby                Visby
+  '1080'   Karlskrona           Campus Karlskrona
+  '1262'   Alnarp               Alnarp
+  '1280'   Malmö                Malmö
+  '1281'   Lund                 Lund
+  '1283'   Helsingborg          Helsingborg
+  '1290'   Kristianstad         Kristianstad
+  '1380'   Halmstad             Halmstad
+  '1480'   Gothenburg           GÖTEBORG
+  '1488'   Trollhättan          TROLLHÄTTAN
+  '1490'   Borås                Borås
+  '1496'   Skövde               Skövde
+  '1780'   Online (distance)    Ortsoberoende
+  '1784'   Arvika               Arvika
+  '1880'   Örebro               Örebro
+  '1980'   Västerås             Västerås
+  '2080'   Falun                Falun
+  '2081'   Borlänge             Borlänge
+  '2180'   Gävle                Gävle
+  '2281'   Sundsvall            Sundsvall
+  '2380'   Östersund            
+  '2480'   Umeå                 Umeå
+  '2482'   Skellefteå           Skellefteå
+  '2580'   Luleå                Luleå
+  '2581'   Piteå                Piteå
+  '2584'   Kiruna               Kiruna
